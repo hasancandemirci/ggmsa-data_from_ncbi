@@ -7,6 +7,16 @@ Multiple Sequence Alignment (MSA) is a bioinformatics technique used to compare 
 "ggMSA" is a visualization technique used for Multiple Sequence Alignment (MSA). With this technique, the similarities or differences between sequences can be visualized in a more appealing way. It allows for a better understanding of the alignment results.
 If you want to learn more about the ggMSA package you can visit the following GitHub account (https://github.com/YuLab-SMU/ggmsa).
 
+###### To install ggmsa package
+ `install.packages ("ggmsa")`
+  `library(ggmsa)`
+ 
+###### If you get R version error try the other way below
+ `if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")`
+
+`BiocManager::install("ggmsa")`
+
 ### You don't need any data to create ggmsa plot!!
 
-We obtained the necessary data for ggMSA using the NCBI database. This allowed us to eliminate the need for any data tables or files. We used an R package to fetch the data from the internet, and successfully integrated it into our algorithm. Upon reviewing the code, you will notice how everything can be achieved at a basic level with concise and straightforward code. We hope this can be helpful to you.
+We obtained the necessary data for ggMSA using the NCBI database. This allowed us to eliminate the need for any data tables or files. We used an R package to fetch the data from the internet and successfully integrated it into our algorithm. Upon reviewing the code, you will notice how everything can be achieved at a basic level with concise and straightforward code. We hope this can be helpful to you.
